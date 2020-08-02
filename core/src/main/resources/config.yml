@@ -67,10 +67,11 @@ gameplay:
 
 # Toggles various user interfaces.
 ui:
-  sidebar: true    # Enable the side bar?
-  tablist: true    # Enable the tab list?
-  proximity: false # Should the proximity of objectives be visible?
-  fireworks: true  # Spawn fireworks after objectives are completed?
+  sidebar: true       # Enable the side bar?
+  tablist: true       # Enable the tab list?
+  tablist-ping: false # Should tab list show real ping?
+  proximity: false    # Should the proximity of objectives be visible?
+  fireworks: true     # Spawn fireworks after objectives are completed?
   participants-see-observers: true # Can participants see observers in the tab list?
 
 # Overrides the header and footer of the side bar.
